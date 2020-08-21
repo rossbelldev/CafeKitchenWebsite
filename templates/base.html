@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <title>Cafe Kitchen</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/master.css')}}">
+    </script>
+    <link rel="shortcut icon" href="">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-5">
+		  <div class="headerImg">
+			<img src="{{url_for('static', filename = 'img/cafeKitchenLogo.png')}}" width="30%" height="30%">
+          </div>
+        </div>
+        <div class="col-md-2">
+          
+        </div>
+        <div class="col-md-5">
+			<div class="headerText">
+				<h1>Cafe Kitchen</h1>
+			</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+    </div>
+    <div class="row">
+      <div class="col-md-8"></div>
+      <div class="col-md-4">
+        <div class="topnav" id="myTopnav">
+          <a href="/index">Home</a>
+          <a href="/about">Menu</a>
+          <a href="/contact">Contact Us</a>
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="navbarChange()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      </div>
+    </div>
+    {% block content %}
+
+    {% endblock %}
+  </body>
+</html>
