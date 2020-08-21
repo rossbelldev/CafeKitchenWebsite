@@ -441,9 +441,10 @@ i{
 
 .card{
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 5%;
   margin-top: 20px;
 }
+
 
 /*
 -- customerHome.html

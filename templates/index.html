@@ -2,18 +2,18 @@
 {% block content %}
 <br><br>
 <div class="row">
-    <div class="col-md-6">
-        <div class="card bg-dark text-white">
-            <img class="card-img" src="{{url_for('static', filename = 'img/fullScottishBreakfast.jpg')}}" alt="Card image">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
-            </div>
-          </div>
+    <div class="card" style="width: 45%;">
+        <img class="card-img-top" src="{{url_for('static', filename = 'img/fullScottishBreakfast.jpg')}}" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Full Scottish breakfast, complete with locally sourced produce.</p>
+        </div>
     </div>
-    <div class="col-md-6">
-        <p>Hello Right</p>
+    <div class="card" style="width: 45%;">
+        <img class="card-img-top" src="{{url_for('static', filename = 'img/breakfastPAstries.jpg')}}" alt="Card image cap">
+        <div class="card-body">
+            <p class="card-text">A selection of pastries, made fresh this morning.</p>
+        </div>
     </div>
 </div>
+<br>
 {% endblock %}
