@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-<br><br><br><br>
+<br><br>
 <div class="row">
     <div class="col-md-6">
-        <p>Please view our menu below, alteratively, download it <a href="{{url_for('static', filename = 'pdf/menu.pdf')}}">here</a>.</p>
+        <h5>Please view our menu below or, alteratively, download it <a href="{{url_for('static', filename = 'pdf/menu.pdf')}}">here</a>.</h5>
     </div>
 </div>
+<br>
 <div class="row">
     <div class="col-md-4">
         <img src="{{url_for('static', filename = 'img/menuP1.png')}}" width="90%" height="90%">

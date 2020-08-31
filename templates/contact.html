@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<br><br>
+<div class="row">
+    <img src="{{url_for('static', filename = 'img/viewTay2.png')}}" width="100%">
+</div>
+<br><br>
+<div class="row">
+    <div class="col-md-4">
+        <h3>Find Us Here.</h3>
+        <p>Address: 214 Broughty Ferry Rd, Dundee DD4 6LD</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2335.2033024710113!2d-2.9389590110398536!3d56.468804469727196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48865c5988aa8743%3A0x35c04d13cffc7dba!2sTayview!5e0!3m2!1sen!2suk!4v1598693588078!5m2!1sen!2suk" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="col-md-4">
+        <h3>Contact Us Here.</h3>
+        <p>Phone Number: 01382520710</p>
+        <p>Email: managercafekitchen@gmail.com</p>
+    </div>
+    <div class="col-md-4">
+        <h3>Our Social Media.</h3>
+        <a href="https://www.facebook.com/Cafe-Kitchen-Dundee-104232148081480/">
+            <img src="{{url_for('static', filename = 'img/fbLogo.png')}}" width="20%">
+        </a>
+        <a href="#">
+            <img src="{{url_for('static', filename = 'img/instaLogo.png')}}" width="20%" style="margin-left: 45px;">
+        </a>
+    </div>
+    <div class="row">
+        <br><br>
+    </div>
+</div>
+{% endblock %}

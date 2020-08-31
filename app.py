@@ -10,7 +10,9 @@ def root():
 def menu():
     return render_template("menu.html")
 
-
+@app.route('/contact')
+def contact():
+    return render_template("contact.html")
 
 
 
