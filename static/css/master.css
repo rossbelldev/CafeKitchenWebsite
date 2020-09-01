@@ -496,6 +496,6 @@ p{
   /* If mobile device, change navbar to small */
   @media screen and (max-width: 767px) {
     .topnav{
-      margin-left:20px;
+      margin-left:200px;
     }
   }
